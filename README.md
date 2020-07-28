@@ -6,16 +6,19 @@ Many people are searching for resources when learning a new technology. This is 
 
 ### Right now implements:
 - Separation of logic and view using event driven techniques
+- Clean polymorphism and composition
 - Basic logic
 - Console interpretation
 
 ### Todo:
+- [ ] Thorough docs
 - [ ] Tests for logic
 - [ ] Blazor implementation
 - [ ] UWP implementation
 - [ ] Xamarin.Forms implementation
 - [ ] Windows.Forms implementation
 - [ ] WPF implementation
+- [ ] ASP? Maybe using REST? Might be funny
 
 ### Interests:
 - [ ] F# implementation to see how big of a difference is between OOP and Functional way of thinking
