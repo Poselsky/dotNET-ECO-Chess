@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-using Chess.ConsoleChessPieces;
+using ConsoleChess;
 using Chess.ChessPieces;
+using Chess;
 
-namespace Chess
+namespace ConsoleChess
 {
     class ConsoleBoard : ChessBoard
     {

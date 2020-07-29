@@ -6,7 +6,7 @@ namespace Chess
 {
     public struct Position
     {
-        private const string Columns = "abcdefgh";
+        private const string Columns = "ABCDEFGH";
         public int Row { get; private set; }
         public int Column { get; private set; }
 

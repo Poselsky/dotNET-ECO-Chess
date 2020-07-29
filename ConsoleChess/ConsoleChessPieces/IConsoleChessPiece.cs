@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Chess.ChessPieces;
 
-namespace Chess.ConsoleChessPieces
+namespace ConsoleChess
 {
     public interface IConsoleChessPiece
     {

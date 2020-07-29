@@ -1,5 +1,4 @@
 ﻿using Chess.ChessPieces;
-using Chess.ConsoleChessPieces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +11,7 @@ namespace Chess
         public readonly static string Columns = "ABCDEFGH";
         public readonly static string Rows = "12345678";
 
-        protected BoardRepresentation BoardMatrix { get; private set; }
+        protected LogicBoard BoardMatrix { get; private set; }
 
         //White starts
         public ChessColor CurrentPlayer { get; private set; } = ChessColor.White;
@@ -20,7 +19,7 @@ namespace Chess
 
         public ChessBoard()
         {
-            BoardMatrix = new BoardRepresentation();
+            BoardMatrix = new LogicBoard();
         }
 
         protected abstract void GameStart();

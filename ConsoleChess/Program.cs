@@ -1,19 +1,21 @@
-﻿using System;
+﻿using Chess;
+using System;
 using System.Linq;
 
-namespace Chess
+
+namespace ConsoleChess
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+
             var board = new ConsoleBoard();
 
 
             board.PlayGame();
         }
-        
+
     }
 
 
